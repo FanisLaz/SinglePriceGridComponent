@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+  }
+  html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+  }
+  .card {
+    position: absolute;
+    margin: auto;
+    /* margin-left: 1em;
+    margin-right: 1em; */
+
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 350px;
+    height: 730px;
+    border-radius: 10px;
+  }
+
+  .top-card {
+    position: relative;
+    bottom: 2em;
+    background-color: rgb(255, 255, 255);
+  }
+  .left-card {
+    position: relative;
+    top: 3em;
+    right: 3.75em;
+    background-color: hsl(184, 62%, 42%);
+    width: 350px;
+  }
+  .right-card {
+    position: relative;
+    top: 6em;
+    background-color: hsl(184, 78%, 45%);
+    height: 220px;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .join-title{
+    position: relative;
+    width: 200px;
+    white-space: nowrap;
+    right: 2em; 
+    color: hsl(179, 62%, 43%);
+  }
+  .join-sub-title{
+    position: relative;
+    top: 1.5em;
+    right: 2em; 
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+    /* word-spacing: 1px;
+    letter-spacing: 1px; */
+  }
+  .join-info{
+    position: relative;
+    top: 3em;
+    right: 2em; 
+    width: 300px;
+    color: hsl(218, 22%, 67%);
+    line-height: 180%;
+  }
+
+  .subscription-title{
+    position: relative;
+    width: 200px;
+    top: 1.5em;
+    left: 1.5em; 
+    color: white;
+  }
+  .price{
+    position: relative;
+    width: 200px;
+    top: 1.8em;
+    left: 1em; 
+    color: white;
+    font-size: 24px;
+  }
+  .price-per{
+    position: relative;
+    width: 200px;
+    top: 0.65em;
+    left: 3.5em; 
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 24px;
+  }
+  .subscription-info{
+    position: relative;
+    width: 250px;
+    top: 2.1em;
+    left: 1.5em; 
+    color: white;
+  }
+  .b{
+    position: relative;
+    top: 4.2em;
+    left: 1.8em; 
+    background-color: hsl(71, 73%, 54%); /* Green */
+    color: white;
+    border-radius: 6px;
+    padding: 10px 120px;
+    display: inline-block;
+    transition-duration: 0.3s;
+  }
+  .b:hover{
+    background-color: hsl(110, 73%, 54%);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+  }
+
+  .additional-info-title{
+    position: relative;
+    width: 200px;
+    top: 1.5em;
+    left: 1.5em; 
+    color: white;
+  }
+  .additional-info{
+    position: relative;
+    width: 300px;
+    top: 2.5em;
+    left: 1.5em; 
+    color: rgba(255, 255, 255, 0.5);
+    line-height: 120%;
+  }
+
+h2, h3{
+    font-weight: 700;
+}
+h6{
+    font-weight: 400;
+}
+p{
+    font-weight: 400;
+}
+
+.attribution{
+    position: absolute;
+    margin: auto;
+    top: 50em;
+  }
+  /* Responsive columns */
+@media screen and (min-width: 1400px) {
+    .card {
+        width: 650px;
+        height: 450px;
+      }
+
+      .top-card {
+        width: 100%;
+        height: 100%;
+      }
+      .left-card {
+        top: -11.7em;
+        right: 3.75em;
+        height: 75%;
+        width: 66%;
+        border-radius: 0 0 0 10px;
+      }
+      .right-card {
+        top: -8.25em;
+        left: 20em;
+        border-radius: 0 0 10px 0;
+        height: 100%;
+        width: 94.5%;
+      }
+
+      .join-info{
+        width: 550px;
+        line-height: 150%;
+      }
+
+      .b{
+        left: 3.5em; 
+        padding: 10px 80px;
+      }
+
+      .additional-info-title{
+        top: 2em;
+      }
+      .additional-info{
+        line-height: 120%;
+        top: 3em;
+      }
+
+      .attribution{
+        top: 30em;
+      }
+}
+
+  .card {
+    box-shadow: 0 9px 12px 0 rgba(0, 0, 0, 0.6);
+    padding: 60px;
+    background-color: rgb(255, 255, 255);
+  }
+
